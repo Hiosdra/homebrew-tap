@@ -34,7 +34,7 @@ cask "codex-usage-guard" do
   homepage "https://github.com/Hiosdra/codex-usage-guard"
 
   livecheck do
-    url "https://github.com/Hiosdra/codex-usage-guard/releases"
+    url "https://github.com/Hiosdra/codex-usage-guard"
     strategy :github_latest
   end
 

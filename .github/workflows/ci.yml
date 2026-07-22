@@ -27,5 +27,5 @@ jobs:
           mkdir -p "$(dirname "$tap_path")"
           ln -s "$GITHUB_WORKSPACE" "$tap_path"
 
-      - name: Audit cask
-        run: brew audit --cask --strict hiosdra/tap/codex-usage-guard
+      - name: Audit formula
+        run: brew audit --formula --strict hiosdra/tap/codex-usage-guard

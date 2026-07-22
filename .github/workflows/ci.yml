@@ -21,5 +21,11 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v7.0.1
 
-      - name: Audit casks
-        run: brew audit --cask --strict Casks/codex-usage-guard.rb
+      - name: Register local tap
+        run: |
+          tap_path="$(brew --repository)/Library/Taps/hiosdra/homebrew-tap"
+          mkdir -p "$(dirname "$tap_path")"
+          ln -s "$GITHUB_WORKSPACE" "$tap_path"
+
+      - name: Audit cask
+        run: brew audit --cask --strict hiosdra/tap/codex-usage-guard

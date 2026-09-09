@@ -1,8 +1,8 @@
 class CodexUsageGuard < Formula
   desc "Local Codex usage pacing CLI and UserPromptSubmit hook"
   homepage "https://github.com/Hiosdra/codex-usage-guard"
-  url "https://github.com/Hiosdra/codex-usage-guard/archive/refs/tags/v0.2.6.tar.gz"
-  sha256 "9e9940e0cd2cf1a2ca40c95f182434925a2eae0970ee9752b3c62689db6646a6"
+  url "https://github.com/Hiosdra/codex-usage-guard/archive/refs/tags/v0.2.7.tar.gz"
+  sha256 "64842070876a4b98f59558a9f687a14abeffbc47cf07ea436f8a000d52f80a59"
   license "MIT"
 
   depends_on "bun" => :build

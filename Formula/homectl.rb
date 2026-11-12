@@ -3,7 +3,6 @@
 class Homectl < Formula
   desc "Manage your homelab through KeePassXC and SSH"
   homepage "https://github.com/Hiosdra/homectl"
-  version "0.2.0"
   license "MIT"
 
   on_macos do

@@ -23,6 +23,6 @@ brew tap Hiosdra/tap
 brew install homectl
 ```
 
-The formula installs the release binary for macOS and Linux, on arm64 and x64. The command is `home-ctl`: release v0.2.0 names its executable `homectl`, and the formula installs it under the new name.
+The formula installs the release binary for macOS and Linux, on arm64 and x64. The command is `home-ctl`.
 
 Project repository: <https://github.com/Hiosdra/homectl>
